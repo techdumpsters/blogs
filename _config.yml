@@ -1,0 +1,6 @@
+title: "Techdumpsters Logs"
+description: "Dokumentasi dan catatan teknis"
+url: "https://techdumpsters.github.io"
+baseurl: "/blogs"
+
+theme: minima
