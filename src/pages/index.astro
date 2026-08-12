@@ -1,10 +1,10 @@
 ---
-import Navbar from "../components/Navbar"
-import Layout from "../layouts/Layout.astro"
+import Layout from "../layouts/Layout.astro";
+import Pages from "../components/Pages";
 ---
 
 <Layout title="Techdumpsters">
-  <main class="p-6 max-w-2xl mx-auto space-y-4">
-    <Navbar/>
+  <main class="min-h-screen p-0">
+    <Pages client:load />
   </main>
 </Layout>

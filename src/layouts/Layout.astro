@@ -1,19 +1,20 @@
 ---
+// src/layouts/Layout.astro
+import '../styles/global.css'; // <-- WAJIB IMPORT FILE CSS DI SINI!
+
 interface Props {
   title: string;
 }
-
 const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="h-full">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
   </head>
-  <body class="bg-neutral-900 text-neutral-100 min-h-screen">
+  <body class="h-full min-h-screen bg-black">
     <slot />
   </body>
 </html>
