@@ -33,7 +33,7 @@ export const moduleData = {
     command: 'cat /var/log/notes.md',
     title: '/ CASUAL_DUMPS',
     type: 'window',
-    content: 'Belum ada tulisan panjang. Kebanyakan hanya coretan catatan teknis singkat dan eksperimen kustomisasi sistem.'
+    content: 'Halo halo, aku capek. Belum ada tulisan panjang. Kebanyakan hanya coretan catatan teknis singkat dan eksperimen kustomisasi sistem.'
   },
   contact: {
     type: 'contactMulti'
